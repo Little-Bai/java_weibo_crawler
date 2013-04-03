@@ -1,0 +1,184 @@
+147307 DEBUG [2013-03-23 12:09:25]  Request:
+147307 DEBUG [2013-03-23 12:09:25]  GET:https://api.weibo.com/2/statuses/user_timeline.json
+147309 DEBUG [2013-03-23 12:09:25]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+147309 DEBUG [2013-03-23 12:09:25]  API-RemoteIP: 192.168.1.100
+0    DEBUG [2013-03-23 12:10:56]  Request:
+2    DEBUG [2013-03-23 12:10:56]  GET:https://api.weibo.com/2/users/show.json
+55   DEBUG [2013-03-23 12:10:56]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+55   DEBUG [2013-03-23 12:10:56]  API-RemoteIP: 192.168.1.100
+983  DEBUG [2013-03-23 12:10:57]  Response:
+983  DEBUG [2013-03-23 12:10:57]  https StatusCode:400
+983  DEBUG [2013-03-23 12:10:57]  Server:nginx/1.2.0
+983  DEBUG [2013-03-23 12:10:57]  Date:Sat, 23 Mar 2013 04:10:58 GMT
+984  DEBUG [2013-03-23 12:10:57]  Content-Type:application/json;charset=UTF-8
+984  DEBUG [2013-03-23 12:10:57]  Content-Length:83
+984  DEBUG [2013-03-23 12:10:57]  Connection:keep-alive
+984  DEBUG [2013-03-23 12:10:57]  Api-Server-IP:10.77.108.55
+984  DEBUG [2013-03-23 12:10:57]  Vary:Accept-Encoding
+985  DEBUG [2013-03-23 12:10:57]  X-Varnish:1124783783
+985  DEBUG [2013-03-23 12:10:57]  Age:0
+985  DEBUG [2013-03-23 12:10:57]  Via:1.1 varnish
+992  DEBUG [2013-03-23 12:10:57]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
+0    DEBUG [2013-03-23 15:47:28]  Request:
+1    DEBUG [2013-03-23 15:47:28]  GET:https://api.weibo.com/2/users/show.json
+51   DEBUG [2013-03-23 15:47:28]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+51   DEBUG [2013-03-23 15:47:28]  API-RemoteIP: 192.168.1.100
+4890 DEBUG [2013-03-23 15:47:33]  Response:
+4891 DEBUG [2013-03-23 15:47:33]  https StatusCode:400
+4891 DEBUG [2013-03-23 15:47:33]  Server:nginx/1.2.0
+4891 DEBUG [2013-03-23 15:47:33]  Date:Sat, 23 Mar 2013 07:47:33 GMT
+4891 DEBUG [2013-03-23 15:47:33]  Content-Type:application/json;charset=UTF-8
+4892 DEBUG [2013-03-23 15:47:33]  Content-Length:83
+4892 DEBUG [2013-03-23 15:47:33]  Connection:keep-alive
+4892 DEBUG [2013-03-23 15:47:33]  Api-Server-IP:10.77.108.49
+4892 DEBUG [2013-03-23 15:47:33]  Vary:Accept-Encoding
+4892 DEBUG [2013-03-23 15:47:33]  X-Varnish:387243213
+4893 DEBUG [2013-03-23 15:47:33]  Age:0
+4893 DEBUG [2013-03-23 15:47:33]  Via:1.1 varnish
+4902 DEBUG [2013-03-23 15:47:33]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
+0    DEBUG [2013-03-23 15:47:44]  Request:
+1    DEBUG [2013-03-23 15:47:44]  GET:https://api.weibo.com/2/users/show.json
+45   DEBUG [2013-03-23 15:47:44]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+46   DEBUG [2013-03-23 15:47:44]  API-RemoteIP: 192.168.1.100
+848  DEBUG [2013-03-23 15:47:45]  Response:
+848  DEBUG [2013-03-23 15:47:45]  https StatusCode:400
+848  DEBUG [2013-03-23 15:47:45]  Server:nginx/1.2.0
+848  DEBUG [2013-03-23 15:47:45]  Date:Sat, 23 Mar 2013 07:47:45 GMT
+849  DEBUG [2013-03-23 15:47:45]  Content-Type:application/json;charset=UTF-8
+849  DEBUG [2013-03-23 15:47:45]  Content-Length:83
+849  DEBUG [2013-03-23 15:47:45]  Connection:keep-alive
+849  DEBUG [2013-03-23 15:47:45]  Api-Server-IP:10.77.108.55
+849  DEBUG [2013-03-23 15:47:45]  Vary:Accept-Encoding
+849  DEBUG [2013-03-23 15:47:45]  X-Varnish:387273835
+850  DEBUG [2013-03-23 15:47:45]  Age:0
+850  DEBUG [2013-03-23 15:47:45]  Via:1.1 varnish
+858  DEBUG [2013-03-23 15:47:45]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
+0    DEBUG [2013-03-23 15:53:47]  Request:
+2    DEBUG [2013-03-23 15:53:47]  GET:https://api.weibo.com/2/users/show.json
+71   DEBUG [2013-03-23 15:53:47]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+71   DEBUG [2013-03-23 15:53:47]  API-RemoteIP: 192.168.1.100
+4096 DEBUG [2013-03-23 15:53:51]  Response:
+4096 DEBUG [2013-03-23 15:53:51]  https StatusCode:400
+4096 DEBUG [2013-03-23 15:53:51]  Server:nginx/1.2.0
+4096 DEBUG [2013-03-23 15:53:51]  Date:Sat, 23 Mar 2013 07:53:52 GMT
+4097 DEBUG [2013-03-23 15:53:51]  Content-Type:application/json;charset=UTF-8
+4097 DEBUG [2013-03-23 15:53:51]  Content-Length:83
+4098 DEBUG [2013-03-23 15:53:51]  Connection:keep-alive
+4098 DEBUG [2013-03-23 15:53:51]  Api-Server-IP:10.77.108.54
+4098 DEBUG [2013-03-23 15:53:51]  Vary:Accept-Encoding
+4099 DEBUG [2013-03-23 15:53:51]  X-Varnish:1155683893
+4099 DEBUG [2013-03-23 15:53:51]  Age:0
+4099 DEBUG [2013-03-23 15:53:51]  Via:1.1 varnish
+4107 DEBUG [2013-03-23 15:53:51]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
+0    DEBUG [2013-03-23 16:01:18]  Request:
+1    DEBUG [2013-03-23 16:01:18]  GET:https://api.weibo.com/2/users/show.json
+53   DEBUG [2013-03-23 16:01:18]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+54   DEBUG [2013-03-23 16:01:18]  API-RemoteIP: 192.168.1.100
+5363 DEBUG [2013-03-23 16:01:24]  Response:
+5364 DEBUG [2013-03-23 16:01:24]  https StatusCode:400
+5364 DEBUG [2013-03-23 16:01:24]  Server:nginx/1.2.0
+5365 DEBUG [2013-03-23 16:01:24]  Date:Sat, 23 Mar 2013 08:01:25 GMT
+5365 DEBUG [2013-03-23 16:01:24]  Content-Type:application/json;charset=UTF-8
+5365 DEBUG [2013-03-23 16:01:24]  Content-Length:83
+5365 DEBUG [2013-03-23 16:01:24]  Connection:keep-alive
+5365 DEBUG [2013-03-23 16:01:24]  Api-Server-IP:10.77.108.43
+5366 DEBUG [2013-03-23 16:01:24]  Vary:Accept-Encoding
+5366 DEBUG [2013-03-23 16:01:24]  X-Varnish:389246459
+5366 DEBUG [2013-03-23 16:01:24]  Age:0
+5366 DEBUG [2013-03-23 16:01:24]  Via:1.1 varnish
+5378 DEBUG [2013-03-23 16:01:24]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
+0    DEBUG [2013-03-23 16:18:15]  Request:
+1    DEBUG [2013-03-23 16:18:15]  GET:https://api.weibo.com/2/users/show.json
+55   DEBUG [2013-03-23 16:18:15]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+55   DEBUG [2013-03-23 16:18:15]  API-RemoteIP: 192.168.1.100
+1376 DEBUG [2013-03-23 16:18:16]  Response:
+1377 DEBUG [2013-03-23 16:18:16]  https StatusCode:400
+1377 DEBUG [2013-03-23 16:18:16]  Server:nginx/1.2.0
+1377 DEBUG [2013-03-23 16:18:16]  Date:Sat, 23 Mar 2013 08:18:17 GMT
+1377 DEBUG [2013-03-23 16:18:16]  Content-Type:application/json;charset=UTF-8
+1377 DEBUG [2013-03-23 16:18:16]  Content-Length:83
+1378 DEBUG [2013-03-23 16:18:16]  Connection:keep-alive
+1378 DEBUG [2013-03-23 16:18:16]  Api-Server-IP:10.77.108.48
+1378 DEBUG [2013-03-23 16:18:16]  Vary:Accept-Encoding
+1378 DEBUG [2013-03-23 16:18:16]  X-Varnish:391883487
+1378 DEBUG [2013-03-23 16:18:16]  Age:0
+1378 DEBUG [2013-03-23 16:18:16]  Via:1.1 varnish
+1386 DEBUG [2013-03-23 16:18:16]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
+0    DEBUG [2013-03-23 16:18:48]  Request:
+1    DEBUG [2013-03-23 16:18:48]  GET:https://api.weibo.com/2/users/show.json
+51   DEBUG [2013-03-23 16:18:48]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+51   DEBUG [2013-03-23 16:18:48]  API-RemoteIP: 192.168.1.100
+1580 DEBUG [2013-03-23 16:18:50]  Response:
+1581 DEBUG [2013-03-23 16:18:50]  https StatusCode:200
+1581 DEBUG [2013-03-23 16:18:50]  Server:nginx/1.2.0
+1581 DEBUG [2013-03-23 16:18:50]  Date:Sat, 23 Mar 2013 08:18:50 GMT
+1581 DEBUG [2013-03-23 16:18:50]  Content-Type:application/json;charset=UTF-8
+1582 DEBUG [2013-03-23 16:18:50]  Content-Length:1453
+1582 DEBUG [2013-03-23 16:18:50]  Connection:keep-alive
+1582 DEBUG [2013-03-23 16:18:50]  Api-Server-IP:10.77.108.44
+1582 DEBUG [2013-03-23 16:18:50]  Vary:Accept-Encoding
+1582 DEBUG [2013-03-23 16:18:50]  X-Varnish:391977307
+1583 DEBUG [2013-03-23 16:18:50]  Age:0
+1583 DEBUG [2013-03-23 16:18:50]  Via:1.1 varnish
+1592 DEBUG [2013-03-23 16:18:50]  {"id":1563134600,"idstr":"1563134600","screen_name":"时尚小波哥","name":"时尚小波哥","province":"11","city":"5","location":"北京 朝阳区","description":"新浪微博时尚达人总动员，凝聚时尚气息，追逐最潮时尚元素。合作交流QQ2212994321","url":"","profile_image_url":"http://tp1.sinaimg.cn/1563134600/50/22821296488/1","profile_url":"521131444","domain":"xieweibo","weihao":"521131444","gender":"m","followers_count":1000131,"friends_count":1091,"statuses_count":4761,"favourites_count":712,"created_at":"Wed Nov 25 15:41:09 +0800 2009","following":false,"allow_all_act_msg":true,"geo_enabled":false,"verified":false,"verified_type":220,"remark":"","status":{"created_at":"Sat Mar 23 10:56:11 +0800 2013","id":3558967227293204,"mid":"3558967227293204","idstr":"3558967227293204","text":"#好久不见# @我就是叫豆子 好久不见，你还好吗？","source":"<a href=\"http://app.weibo.com/t/feed/1q2DLT\" rel=\"nofollow\">微博达人</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}},"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/1563134600/180/22821296488/1","verified_reason":"","follow_me":false,"online_status":1,"bi_followers_count":1018,"lang":"zh-cn","star":0,"mbtype":12,"mbrank":4,"block_word":0}
+
+0    DEBUG [2013-03-23 16:19:41]  Request:
+1    DEBUG [2013-03-23 16:19:41]  GET:https://api.weibo.com/2/users/show.json
+55   DEBUG [2013-03-23 16:19:41]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+55   DEBUG [2013-03-23 16:19:41]  API-RemoteIP: 192.168.1.100
+1315 DEBUG [2013-03-23 16:19:43]  Response:
+1315 DEBUG [2013-03-23 16:19:43]  https StatusCode:200
+1316 DEBUG [2013-03-23 16:19:43]  Server:nginx/1.2.0
+1316 DEBUG [2013-03-23 16:19:43]  Date:Sat, 23 Mar 2013 08:19:44 GMT
+1316 DEBUG [2013-03-23 16:19:43]  Content-Type:application/json;charset=UTF-8
+1316 DEBUG [2013-03-23 16:19:43]  Content-Length:1453
+1316 DEBUG [2013-03-23 16:19:43]  Connection:keep-alive
+1317 DEBUG [2013-03-23 16:19:43]  Api-Server-IP:10.77.108.37
+1317 DEBUG [2013-03-23 16:19:43]  Vary:Accept-Encoding
+1317 DEBUG [2013-03-23 16:19:43]  X-Varnish:392126935
+1317 DEBUG [2013-03-23 16:19:43]  Age:0
+1317 DEBUG [2013-03-23 16:19:43]  Via:1.1 varnish
+1326 DEBUG [2013-03-23 16:19:43]  {"id":1563134600,"idstr":"1563134600","screen_name":"时尚小波哥","name":"时尚小波哥","province":"11","city":"5","location":"北京 朝阳区","description":"新浪微博时尚达人总动员，凝聚时尚气息，追逐最潮时尚元素。合作交流QQ2212994321","url":"","profile_image_url":"http://tp1.sinaimg.cn/1563134600/50/22821296488/1","profile_url":"521131444","domain":"xieweibo","weihao":"521131444","gender":"m","followers_count":1000130,"friends_count":1091,"statuses_count":4761,"favourites_count":712,"created_at":"Wed Nov 25 15:41:09 +0800 2009","following":false,"allow_all_act_msg":true,"geo_enabled":false,"verified":false,"verified_type":220,"remark":"","status":{"created_at":"Sat Mar 23 10:56:11 +0800 2013","id":3558967227293204,"mid":"3558967227293204","idstr":"3558967227293204","text":"#好久不见# @我就是叫豆子 好久不见，你还好吗？","source":"<a href=\"http://app.weibo.com/t/feed/1q2DLT\" rel=\"nofollow\">微博达人</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}},"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/1563134600/180/22821296488/1","verified_reason":"","follow_me":false,"online_status":1,"bi_followers_count":1018,"lang":"zh-cn","star":0,"mbtype":12,"mbrank":4,"block_word":0}
+
+0    DEBUG [2013-03-23 16:20:03]  Request:
+1    DEBUG [2013-03-23 16:20:03]  GET:https://api.weibo.com/2/users/show.json
+79   DEBUG [2013-03-23 16:20:03]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+79   DEBUG [2013-03-23 16:20:03]  API-RemoteIP: 192.168.1.100
+1323 DEBUG [2013-03-23 16:20:05]  Response:
+1324 DEBUG [2013-03-23 16:20:05]  https StatusCode:200
+1324 DEBUG [2013-03-23 16:20:05]  Server:nginx/1.2.0
+1324 DEBUG [2013-03-23 16:20:05]  Date:Sat, 23 Mar 2013 08:20:05 GMT
+1324 DEBUG [2013-03-23 16:20:05]  Content-Type:application/json;charset=UTF-8
+1324 DEBUG [2013-03-23 16:20:05]  Content-Length:1453
+1324 DEBUG [2013-03-23 16:20:05]  Connection:keep-alive
+1325 DEBUG [2013-03-23 16:20:05]  Api-Server-IP:10.77.108.43
+1325 DEBUG [2013-03-23 16:20:05]  Vary:Accept-Encoding
+1325 DEBUG [2013-03-23 16:20:05]  X-Varnish:1370664727
+1325 DEBUG [2013-03-23 16:20:05]  Age:0
+1326 DEBUG [2013-03-23 16:20:05]  Via:1.1 varnish
+1335 DEBUG [2013-03-23 16:20:05]  {"id":1563134600,"idstr":"1563134600","screen_name":"时尚小波哥","name":"时尚小波哥","province":"11","city":"5","location":"北京 朝阳区","description":"新浪微博时尚达人总动员，凝聚时尚气息，追逐最潮时尚元素。合作交流QQ2212994321","url":"","profile_image_url":"http://tp1.sinaimg.cn/1563134600/50/22821296488/1","profile_url":"521131444","domain":"xieweibo","weihao":"521131444","gender":"m","followers_count":1000130,"friends_count":1091,"statuses_count":4761,"favourites_count":712,"created_at":"Wed Nov 25 15:41:09 +0800 2009","following":false,"allow_all_act_msg":true,"geo_enabled":false,"verified":false,"verified_type":220,"remark":"","status":{"created_at":"Sat Mar 23 10:56:11 +0800 2013","id":3558967227293204,"mid":"3558967227293204","idstr":"3558967227293204","text":"#好久不见# @我就是叫豆子 好久不见，你还好吗？","source":"<a href=\"http://app.weibo.com/t/feed/1q2DLT\" rel=\"nofollow\">微博达人</a>","favorited":false,"truncated":false,"in_reply_to_status_id":"","in_reply_to_user_id":"","in_reply_to_screen_name":"","geo":null,"reposts_count":0,"comments_count":0,"attitudes_count":0,"mlevel":0,"visible":{"type":0,"list_id":0}},"allow_all_comment":true,"avatar_large":"http://tp1.sinaimg.cn/1563134600/180/22821296488/1","verified_reason":"","follow_me":false,"online_status":1,"bi_followers_count":1018,"lang":"zh-cn","star":0,"mbtype":12,"mbrank":4,"block_word":0}
+
+0    DEBUG [2013-03-23 16:21:46]  Request:
+1    DEBUG [2013-03-23 16:21:46]  GET:https://api.weibo.com/2/users/show.json
+52   DEBUG [2013-03-23 16:21:46]  Authorization: OAuth2 2.00fwzwOCFgIJQDa3073d37cd3d2laC
+53   DEBUG [2013-03-23 16:21:46]  API-RemoteIP: 192.168.1.100
+1076 DEBUG [2013-03-23 16:21:47]  Response:
+1077 DEBUG [2013-03-23 16:21:47]  https StatusCode:400
+1077 DEBUG [2013-03-23 16:21:47]  Server:nginx/1.2.0
+1077 DEBUG [2013-03-23 16:21:47]  Date:Sat, 23 Mar 2013 08:21:48 GMT
+1077 DEBUG [2013-03-23 16:21:47]  Content-Type:application/json;charset=UTF-8
+1078 DEBUG [2013-03-23 16:21:47]  Content-Length:83
+1078 DEBUG [2013-03-23 16:21:47]  Connection:keep-alive
+1078 DEBUG [2013-03-23 16:21:47]  Api-Server-IP:10.77.108.42
+1078 DEBUG [2013-03-23 16:21:47]  Vary:Accept-Encoding
+1079 DEBUG [2013-03-23 16:21:47]  X-Varnish:707503430
+1079 DEBUG [2013-03-23 16:21:47]  Age:0
+1079 DEBUG [2013-03-23 16:21:47]  Via:1.1 varnish
+1089 DEBUG [2013-03-23 16:21:47]  {"error":"User does not exists!","error_code":20003,"request":"/2/users/show.json"}
+
