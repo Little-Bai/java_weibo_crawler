@@ -46,20 +46,18 @@ public class get_label {
         if (MYSQL_PIN == null) MYSQL_PIN = "";
         //驱动数据库连接
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:" + MYSQL_URL + "?characterEncoding=gbk", MYSQL_ACCOUNT, MYSQL_PIN);
+        Connection conn = DriverManager.getConnection("jdbc:" + MYSQL_URL + "?characterEncoding=utf-16", MYSQL_ACCOUNT, MYSQL_PIN);
 
         String access_token = "2.00fwzwOCFgIJQDa3073d37cd3d2laC";
 
-		
-
-        BufferedReader init = new BufferedReader(new InputStreamReader(new FileInputStream("last_one_name.txt"), "gbk"));
+        BufferedReader init = new BufferedReader(new InputStreamReader(new FileInputStream("last_one_name.txt"), "utf-16"));
         String last_time_end = "";
         last_time_end = init.readLine(); //获取上次最后一个爬的人
         init.close();
 
-        BufferedWriter last_name_writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("last_one_name.txt"), "gbk"));
+        BufferedWriter last_name_writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("last_one_name.txt"), "utf-16"));
 
-        BufferedReader bin = new BufferedReader(new InputStreamReader(new FileInputStream("screen_name.txt"), "gbk"));
+        BufferedReader bin = new BufferedReader(new InputStreamReader(new FileInputStream("screen_name.txt"), "utf-16"));
 
         Statement stmt = conn.createStatement();
         String del_str = "delete from labels where screen_name = '" + last_time_end + "'";

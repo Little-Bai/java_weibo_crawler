@@ -71,22 +71,26 @@ public class main {
 		Timeline tm = new Timeline();
 		tm.client.setToken(access_token);
 		BufferedReader init = new BufferedReader(new InputStreamReader(
-				new FileInputStream("last_one_name.txt"), "gbk"));
+				new FileInputStream("last_one_name.txt"), "utf-8"));
 		String last_time_end = "";
 		last_time_end = init.readLine(); // 获取上次最后一个爬的人
 		init.close();
 
 		BufferedWriter last_name_writer = new BufferedWriter(
 				new OutputStreamWriter(
-						new FileOutputStream("last_one_name.txt"), "gbk"));
+						new FileOutputStream("last_one_name.txt"), "utf-8"));
 
 		BufferedReader bin = new BufferedReader(new InputStreamReader(
-				new FileInputStream("screen_name.txt"), "gbk"));
+				new FileInputStream("screen_name.txt"), "utf-8"));
 
 		Statement stmt = conn.createStatement();
 		String screen_name = "";
 		try {
 			System.out.println(last_time_end);
+			while (!screen_name.equals(last_time_end))
+			{
+				screen_name = bin.readLine();
+			}
 			String last_time_end_id = um.showUserByScreenName(last_time_end)
 					.getId();
 			String del_str = "delete from weibos where u_id = '"
@@ -95,8 +99,7 @@ public class main {
 			del_str = "delete from labels where u_id = '" + last_time_end_id
 					+ "'";
 			stmt.executeUpdate(del_str);
-			while (!screen_name.equals(last_time_end))
-				screen_name = bin.readLine();
+
 			// Paging is an object which is used to set the number of current
 			// page and the count WEIBO number of one page.
 			int page_count = 50;
