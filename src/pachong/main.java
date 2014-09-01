@@ -23,8 +23,6 @@ import weibo4j.model.StatusWapper;
 import weibo4j.model.Tag;
 import weibo4j.model.User;
 import weibo4j.model.WeiboException;
-//Access token key: 62e95f355bb7f420d54b78f4bd11d608
-//Access token secret: 1d8f8f4ccb8c899fc995c8ba68ba84a3
 
 /*将要爬取用户的screen_name写在screen_name。txt
  * 
@@ -55,7 +53,7 @@ public class main {
 		// state.executeUpdate("TRUNCATE TABLE  `weibos`");
 
 		// set sccess_token
-		String access_token = "2.00fwzwOCFgIJQDa3073d37cd3d2laC";
+		String access_token = "";
 
 		// Declar a TIMELINE object and send the access_token to it
 		Users um = new Users();
